@@ -1,0 +1,30 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7814FF;
+    background-color: #e1d7d7;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.container{
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.container p{
+    margin: auto;
+    font-size: 25px;
+}
+
+.container Button{
+    margin-inline: 40%;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding-inline: 20px;
+    border-radius: 10px;
+    background: #7814FF;
+}

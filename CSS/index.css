@@ -2,6 +2,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #7814FF;
     text-align: center;
+    background-color: #e1d7d7;
 }
 
 .border{
@@ -10,11 +11,79 @@ body{
 
 .container{
     margin-top: 10px;
-    padding: 20px;
+    padding-inline: 20px;
 }
 
 .area1{
-    background-color: #7814FF;
-    height: 400px;
+    background-color: blue;
+    height: 392px;
     color: black;
+    font-size: x-large;
+    
+}
+
+.area2{
+    background-color: aqua;
+    height: 150px;
+    color: black;
+    font-size: x-large;
+}
+
+.area3{
+    background-color: red;
+    height: 40px;
+    color: black;
+    font-size: x-large;
+    
+}
+
+.area4{
+    background-color: yellow;
+    height: 120px;
+    color: black;
+    font-size: x-large;
+    
+}
+
+.area5{
+    background-color: green;
+    height: 120px;
+    color: black;
+    font-size: x-large;
+    
+}
+
+.area6{
+    background-color: brown;
+    height: 80px;
+    color: black;
+    font-size: x-large;
+}
+
+.area7{
+    background-color: blueviolet;
+    height: 90px;
+    color: black;
+    font-size: x-large;
+}
+
+.area8{
+    background-color: cadetblue;
+    height: 70px;
+    color: black;
+    font-size: x-large;
+}
+
+.area9{
+    background-color: darkgray;
+    height: 70px;
+    color: black;
+    font-size: x-large;
+}
+
+.area10{
+    background-color: fuchsia;
+    height: 70px;
+    color: black;
+    font-size: x-large;
 }
