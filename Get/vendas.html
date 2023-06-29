@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vendas</title>
+    <link rel="stylesheet" href="css/styleVendas.css">
+</head>
+<body>
+    <!-- Div Princiapal onde será colocados os elementos principais -->
+    <div id="vendas-caixa">
+        <!-- Titulo da parte dos automoveis que recebera o nome da area escolhida -->
+        <h1 id="vendas-h1"></h1>
+        <!-- Formulario que receberá a escolha do cliente e a concessionaria -->
+        <form action="php/alter.php" method="POST">
+            <!-- Div que recebera o nome dos clientes que estão cadastrados -->
+            <div id="vendas-clientes"></div>
+            <!-- Div que recebera o nome das concessionarias que contem o carro especifica -->
+            <div id="vendas-conce"></div>
+
+            <!-- Botão que executará a ação do formulario -->
+            <div id="vendas-btn">
+                <button type="submit" class="vendas-btn">Confirmar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/vendas.js"></script>
+</body>
+</html>

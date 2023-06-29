@@ -1,0 +1,33 @@
+/* Estilos aplicados ao body */
+body {
+    color: #7814FF; /* Cor do texto é um tom de roxo */
+    font-family: 'Segoe UI'; /* Fonte do texto é Segoe UI */
+}
+
+/* Estilos aplicados a um elemento com o ID "autos-caixa" */
+#autos-caixa {
+    border: 1px solid black; /* Borda sólida preta de 1 pixel */
+    width: 500px; /* Largura de 500 pixels */
+    height: auto; /* Altura ajustada automaticamente com base no conteúdo */
+    margin: auto; /* Centralizar horizontalmente */
+}
+
+/* Estilos aplicados a todos os elementos h1 */
+h1 {
+    margin-left: 30px; /* Margem esquerda de 30 pixels */
+}
+
+/* Estilos aplicados a um elemento com o ID "autos-label" */
+#autos-label {
+    margin-left: 30px; /* Margem esquerda de 30 pixels */
+}
+
+/* Estilos aplicados a elementos com a classe "autos-btn" */
+.autos-btn {
+    background-color: #7814FF; /* Cor de fundo é um tom de roxo */
+    color: #FFFFFF; /* Cor do texto é branco */
+    border-radius: 8px; /* Borda arredondada com raio de 8 pixels */
+    padding-left: 20px; /* Preenchimento interno esquerdo de 20 pixels */
+    padding-right: 20px; /* Preenchimento interno direito de 20 pixels */
+    margin-left: 50px; /* Margem esquerda de 50 pixels */
+}

@@ -1,0 +1,24 @@
+body{
+    color: #7814FF;
+    font-family: 'Segoe UI';
+    
+}
+#vendas-caixa{
+    border: 1px solid black;
+    width: 500px;
+    padding: 30px;
+    margin-inline: auto;
+}
+.vendas-btn{
+    background-color: #7814FF;
+    color: white;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#vendas-btn{
+    text-align: center;
+}
+.vendas-espaco{
+    margin-right: 58px;
+}
