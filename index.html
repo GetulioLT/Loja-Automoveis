@@ -2,52 +2,45 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Definição do tipo de documento HTML e idioma -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Importação de fontes do Google e estilos CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="CSS/materialize.css">
     <link rel="stylesheet" href="CSS/index.css">
 
+    <!-- Título da página exibido na aba do navegador -->
     <title>Areas</title>
 </head>
 
 <body>
 
+    <!-- Contêiner principal com uma classe "border" para criar uma borda -->
     <div class="container border">
         <div class="row">
+
+            <!-- Coluna de tamanho 12, ocupando toda a largura -->
             <div class="col s12">
+
+                <!-- Título principal da página -->
                 <h1>Fabrica de Automoveis</h1>
+
             </div>
-        </div>
-        <div class="row">
-            <div class="col s2 area1 border">1</div>
-
-            <div class="col s1 area2 border">2</div>
-
-            <div class="col s9 area3 border">3</div>
-
-            <div class="col s6" style="color: #e1d7d7;">1</div>
-
-            <div class="col s8 offset-l1 area4 border">4</div>
-
-            <div class="col s7 area5 border">5</div>
-
-            <div class="col s3 area6 border">6</div>
-
-            <div class="col s5 offset-l5 area7 border">7</div>
-
-            <div class="col s4 area8 border">8</div>
-
-            <div class="col s4 area9 border">9</div>
-
-            <div class="col s4 area10 border">10</div>
 
         </div>
+
+        <!-- Área vazia para adicionar elementos dinamicamente -->
+        <div class="row" id="areas-index">
+        </div>
+
     </div>
 
-
+    <!-- Importação de arquivos JavaScript -->
     <script src="JS/materialize.js"></script>
+    <script src="JS/index.js"></script>
+
 </body>
 
 </html>
