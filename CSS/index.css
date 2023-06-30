@@ -1,89 +1,88 @@
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #7814FF;
-    text-align: center;
-    background-color: #e1d7d7;
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte utilizada */
+    color: #7814FF; /* Define a cor do texto */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: #e1d7d7; /* Define a cor de fundo */
 }
 
-.border{
-    border: 1px solid black;
+/* Estilos para elementos com a classe "border" */
+.border {
+    border: 1px solid black; /* Define uma borda sólida de 1px na cor preta */
 }
 
-.container{
-    margin-top: 10px;
-    padding-inline: 20px;
+/* Estilos para o container principal */
+.container {
+    margin-top: 10px; /* Define uma margem superior de 10px */
+    padding-inline: 20px; /* Define um espaçamento horizontal interno de 20px */
 }
 
-.area1{
-    background-color: aqua;
-    height: 392px;
-    color: black;
-    font-size: x-large;
-    
+/* Estilos para elementos com a classe "area1" */
+.area1 {
+    height: 392px; /* Define a altura do elemento */
+    color: black; /* Define a cor do texto */
+    font-size: x-large; /* Define o tamanho da fonte como x-large */
 }
 
-.area2{
-    background-color: aqua;
-    height: 150px;
-    color: black;
-    font-size: x-large;
+/* Estilos para elementos com a classe "area2" */
+.area2 {
+    height: 150px; /* Define a altura do elemento */
+    color: black; /* Define a cor do texto */
+    font-size: x-large; /* Define o tamanho da fonte como x-large */
 }
 
-.area3{
-    background-color: red;
-    height: 40px;
-    color: black;
-    font-size: x-large;
-    
+/* Estilos para elementos com a classe "area3" */
+.area3 {
+    height: 40px; /* Define a altura do elemento */
+    color: black; /* Define a cor do texto */
+    font-size: x-large; /* Define o tamanho da fonte como x-large */
 }
 
-.area4{
-    background-color: yellow;
-    height: 120px;
-    color: black;
-    font-size: x-large;
-    
+/* Estilos para elementos com a classe "area4" */
+.area4 {
+    height: 120px; /* Define a altura do elemento */
+    color: black; /* Define a cor do texto */
+    font-size: x-large; /* Define o tamanho da fonte como x-large */
 }
 
-.area5{
-    background-color: green;
-    height: 120px;
-    color: black;
-    font-size: x-large;
-    
+/* Estilos para elementos com a classe "area5" */
+.area5 {
+    height: 120px; /* Define a altura do elemento */
+    color: black; /* Define a cor do texto */
+    font-size: x-large; /* Define o tamanho da fonte como x-large */
 }
 
-.area6{
-    background-color: brown;
-    height: 80px;
-    color: black;
-    font-size: x-large;
+/* Estilos para elementos com a classe "area6" */
+.area6 {
+    height: 80px; /* Define a altura do elemento */
+    color: black; /* Define a cor do texto */
+    font-size: x-large; /* Define o tamanho da fonte como x-large */
 }
 
-.area7{
-    background-color: blueviolet;
-    height: 90px;
-    color: black;
-    font-size: x-large;
+/* Estilos para elementos com a classe "area7" */
+.area7 {
+    height: 90px; /* Define a altura do elemento */
+    color: black; /* Define a cor do texto */
+    font-size: x-large; /* Define o tamanho da fonte como x-large */
 }
 
-.area8{
-    background-color: cadetblue;
-    height: 70px;
-    color: black;
-    font-size: x-large;
+/* Estilos para elementos com a classe "area8" */
+.area8 {
+    height: 70px; /* Define a altura do elemento */
+    color: black; /* Define a cor do texto */
+    font-size: x-large; /* Define o tamanho da fonte como x-large */
 }
 
-.area9{
-    background-color: darkgray;
-    height: 70px;
-    color: black;
-    font-size: x-large;
+/* Estilos para elementos com a classe "area9" */
+.area9 {
+    height: 70px; /* Define a altura do elemento */
+    color: black; /* Define a cor do texto */
+    font-size: x-large; /* Define o tamanho da fonte como x-large */
 }
 
-.area10{
-    background-color: fuchsia;
-    height: 70px;
-    color: black;
-    font-size: x-large;
+/* Estilos para elementos com a classe "area10" */
+.area10 {
+    height: 70px; /* Define a altura do elemento */
+    color: black; /* Define a cor do texto */
+    font-size: x-large; /* Define o tamanho da fonte como x-large */
 }

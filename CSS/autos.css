@@ -1,32 +1,38 @@
+/* Estilos para o corpo da página */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #7814FF;
-    background-color: #e1d7d7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte utilizada */
+    color: #7814FF; /* Define a cor do texto */
+    background-color: #e1d7d7; /* Define a cor de fundo */
 }
 
+/* Estilos para o cabeçalho h1 */
 h1 {
-    font-size: 60px;
-    font-weight: bold;
+    font-size: 60px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define o peso da fonte como negrito */
 }
 
+/* Estilos para o container principal */
 .container {
-    border: 1px solid black;
-    margin-top: 10px;
+    border: 1px solid black; /* Define uma borda sólida de 1px na cor preta */
+    margin-top: 10px; /* Define uma margem superior de 10px */
 }
 
+/* Estilos para os elementos com a classe "autos" */
 .autos {
-    font-size: 25px;
-    text-align: left;
+    font-size: 25px; /* Define o tamanho da fonte */
+    text-align: left; /* Alinha o texto à esquerda */
 }
 
+/* Estilos para os botões dentro dos elementos com a classe "autos" */
 .autos button {
-    color: #FFFFFF;
-    font-size: 25px;
-    padding-inline: 20px;
-    border-radius: 10px;
-    background: #7814FF;
+    color: #FFFFFF; /* Define a cor do texto como branco */
+    font-size: 25px; /* Define o tamanho da fonte */
+    padding-inline: 20px; /* Define o espaçamento interno horizontal */
+    border-radius: 10px; /* Define o raio do arredondamento da borda */
+    background: #7814FF; /* Define a cor de fundo */
 }
 
+/* Estilos para os botões dentro dos elementos com a classe "autos" quando passam o mouse por cima */
 .autos button:hover {
-    background: #0000FF;
+    background: #0000FF; /* Altera a cor de fundo quando o mouse passa por cima */
 }
