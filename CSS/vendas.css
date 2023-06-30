@@ -1,30 +1,74 @@
+/* Importa as fontes 'Akaya Kanadaka' e 'Alata' do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #7814FF;
+    font-family: 'Akaya Kanadaka', cursive;
+    /* Define a fonte utilizada */
+    color: #0073ff;
+    /* Define a cor do texto */
     background-color: #e1d7d7;
+    /* Define a cor de fundo */
 }
 
 h1{
+    font-family: 'Alata', sans-serif;
     font-size: 60px;
     font-weight: bold;
+    background: #7814FF;
+    /* Cria um gradiente de cores no fundo, indo de roxo escuro para azul */
+    background: linear-gradient(to right, #7814FF 40%, #0000FF 100%);
+    -webkit-background-clip: text;
+    /* Define a área do texto como a área de recorte para o gradiente de cores */
+    -webkit-text-fill-color: transparent;
+    /* Define a cor do texto como transparente para permitir a exibição do gradiente */
 }
 
 .container{
     border: 1px solid black;
+    /* Define uma borda sólida de 1px na cor preta */
     margin-top: 10px;
+    /* Define uma margem superior de 10px */
     font-size: 20px;
+    /* Define o tamanho da fonte */
 }
 
 .container p{
     margin: auto;
+    /* Centraliza horizontalmente o elemento */
     font-size: 25px;
+    /* Define o tamanho da fonte */
 }
 
 .container Button{
     margin-inline: 40%;
+    /* Define um espaçamento horizontal de 40% em relação ao container */
     color: #FFFFFF;
+    /* Define a cor do texto como branco */
     font-size: 25px;
+    /* Define o tamanho da fonte */
     padding-inline: 20px;
+    /* Define um espaçamento interno horizontal de 20px */
     border-radius: 10px;
+    /* Define o raio do arredondamento da borda */
     background: #7814FF;
+    /* Define a cor de fundo */
+}
+
+.btn-vendas{
+    color: #FFFFFF;
+    /* Define a cor do texto como branco */
+    font-size: 25px;
+    /* Define o tamanho da fonte */
+    padding-inline: 20px;
+    /* Define um espaçamento interno horizontal de 20px */
+    border-radius: 10px;
+    /* Define o raio do arredondamento da borda */
+    background: #7814FF;
+    /* Define a cor de fundo */
+}
+
+.btn-vendas:hover{
+    background: #0000FF;
+    /* Altera a cor de fundo quando o mouse passa por cima */
 }

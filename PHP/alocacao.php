@@ -1,37 +1,37 @@
 <?php
-include ("infos.php");
+// Incluindo o arquivo com as informações de conexão ao banco de dados
+include("infos.php");
 
-// Conexão com o banco de dados
+// Criando uma nova instância de conexão com o banco de dados
 $conn = new mysqli($host, $username, $password, $database);
 
-// Verificar se houve erro na conexão
+// Verificando se houve erro na conexão
 if ($conn->connect_error) {
     die("Erro ao conectar ao banco de dados: " . $conn->connect_error);
 }
 
-// Consulta SQL para obter os dados da tabela "alocacao"
+// Consulta SQL para selecionar todos os registros da tabela "alocacao"
 $sql = "SELECT * FROM alocacao";
 $result = $conn->query($sql);
 
-// Verificar se há resultados da consulta
+// Verificando se a consulta retornou resultados
 if ($result->num_rows > 0) {
-    // Array para armazenar os resultados da consulta
     $data = array();
 
-    // Loop através dos resultados e armazenar em um array associativo
+    // Loop através dos resultados da consulta e armazenando em um array
     while ($row = $result->fetch_assoc()) {
         $data[] = $row;
     }
 
-    // Converter o array em formato JSON
+    // Convertendo o array em formato JSON
     $json_data = json_encode($data);
 
-    // Imprimir os dados no formato JSON
+    // Exibindo o JSON
     echo $json_data;
 } else {
     echo "Nenhum resultado encontrado.";
 }
 
-// Fechar a conexão com o banco de dados
+// Fechando a conexão com o banco de dados
 $conn->close();
 ?>

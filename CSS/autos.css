@@ -1,38 +1,66 @@
+/* Importa as fontes 'Akaya Kanadaka' e 'Alata' do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
 /* Estilos para o corpo da página */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte utilizada */
-    color: #7814FF; /* Define a cor do texto */
-    background-color: #e1d7d7; /* Define a cor de fundo */
+    font-family: 'Akaya Kanadaka', cursive;
+    /* Define a fonte utilizada */
+    color: #0073ff;
+    /* Define a cor do texto */
+    background-color: #e1d7d7;
+    /* Define a cor de fundo como um tom de cinza claro */
 }
 
 /* Estilos para o cabeçalho h1 */
 h1 {
-    font-size: 60px; /* Define o tamanho da fonte */
-    font-weight: bold; /* Define o peso da fonte como negrito */
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    /* Define o tamanho da fonte como 60 pixels */
+    background: #7814FF;
+    /* Define um fundo roxo escuro */
+    background: linear-gradient(to right, #7814FF 40%, #0000FF 100%);
+    /* Cria um gradiente de cores no fundo, indo de roxo escuro para azul */
+    -webkit-background-clip: text;
+    /* Define a área do texto como a área de recorte para o gradiente de cores */
+    -webkit-text-fill-color: transparent;
+    /* Define a cor do texto como transparente para permitir a exibição do gradiente */
 }
 
 /* Estilos para o container principal */
 .container {
-    border: 1px solid black; /* Define uma borda sólida de 1px na cor preta */
-    margin-top: 10px; /* Define uma margem superior de 10px */
+    border: 1px solid black;
+    /* Define uma borda sólida de 1 pixel na cor preta ao redor do container */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* Define uma margem superior e inferior de 10 pixels para separar o container de outros elementos */
 }
 
 /* Estilos para os elementos com a classe "autos" */
 .autos {
-    font-size: 25px; /* Define o tamanho da fonte */
-    text-align: left; /* Alinha o texto à esquerda */
+    font-size: 25px;
+    /* Define o tamanho da fonte como 25 pixels */
+    text-align: left;
+    /* Alinha o texto à esquerda */
 }
 
 /* Estilos para os botões dentro dos elementos com a classe "autos" */
 .autos button {
-    color: #FFFFFF; /* Define a cor do texto como branco */
-    font-size: 25px; /* Define o tamanho da fonte */
-    padding-inline: 20px; /* Define o espaçamento interno horizontal */
-    border-radius: 10px; /* Define o raio do arredondamento da borda */
-    background: #7814FF; /* Define a cor de fundo */
+    color: #FFFFFF;
+    /* Define a cor do texto como branco */
+    font-size: 25px;
+    /* Define o tamanho da fonte como 25 pixels */
+    padding-inline: 20px;
+    /* Define um espaçamento interno horizontal de 20 pixels */
+    border-radius: 10px;
+    /* Define o raio do arredondamento da borda como 10 pixels */
+    background: #7814FF;
+    /* Define um fundo roxo escuro para os botões */
 }
 
 /* Estilos para os botões dentro dos elementos com a classe "autos" quando passam o mouse por cima */
 .autos button:hover {
-    background: #0000FF; /* Altera a cor de fundo quando o mouse passa por cima */
+    background: #0000FF;
+    /* Altera a cor de fundo para azul quando o mouse passa por cima dos botões */
 }
