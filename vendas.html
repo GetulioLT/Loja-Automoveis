@@ -2,9 +2,11 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Configurações básicas -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Importação de fontes e estilos -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="CSS/materialize.css">
     <link rel="stylesheet" href="CSS/vendas.css">
@@ -17,49 +19,51 @@
     <div class="container">
         <div class="row">
             <div class="col s11 offset-l1">
-                <h1>XYZ</h1>
+                <h1 id="h1-vendas">XYZ</h1> <!-- Título da página de vendas -->
             </div>
         </div>
 
-        <form action="">
+        <form action="PHP/atualizacao.php" method="post"> <!-- Formulário para submissão dos dados de venda -->
             <div class="row">
-                <div class="col s3 offset-l1"><p>Nome:</p></div>
+                <div class="col s3 offset-l1">
+                    <p>Nome:</p> <!-- Campo para selecionar o nome do cliente -->
+                </div>
 
                 <div class="col s7">
-                    <select class="browser-default">
-                        <option value="" disabled selected></option>
-                        <option value="1">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
+                    <select class="browser-default" id="nome-vendas" required> <!-- Lista suspensa para selecionar o nome do cliente -->
+                        <!-- Opções do nome do cliente serão preenchidas dinamicamente -->
+                    </select>
                 </div>
             </div>
 
             <br>
 
             <div class="row">
-                <div class="col s3 offset-l1"><p>Concessionaria:</p></div>
+                <div class="col s3 offset-l1">
+                    <p>Concessionária:</p> <!-- Campo para selecionar a concessionária -->
+                </div>
 
                 <div class="col s7">
-                    <select class="browser-default">
-                        <option value="" disabled selected></option>
-                        <option value="1">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
+                    <select class="browser-default" id="conce-vendas" required> <!-- Lista suspensa para selecionar a concessionária -->
+                        <!-- Opções da concessionária serão preenchidas dinamicamente -->
+                    </select>
                 </div>
             </div>
 
             <br>
 
             <div class="row">
-                <div class="col s12"><Button>Confirmar</Button></div>
+                <div class="col s12">
+                    <button type="submit">Confirmar</button> <!-- Botão para confirmar a venda -->
+                </div>
             </div>
         </form>
 
     </div>
 
+    <!-- Scripts -->
     <script src="JS/materialize.js"></script>
+    <script src="JS/vendas.js"></script>
 </body>
 
 </html>

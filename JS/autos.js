@@ -28,7 +28,8 @@ fetch("php/alocacao.php")
                 num_veiculos.push(parseInt(data[i].automovel));
             }
         }
-
+    })
+    .then(function () {
         // Realiza uma requisição para obter os dados dos veículos
         fetch("php/automoveis.php")
             .then(function (response) {
