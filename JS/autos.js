@@ -17,7 +17,7 @@ let veiculos = [];
 let nome_veiculo = [];
 
 // Realiza uma requisição para obter os dados de alocação dos veículos
-fetch("php/alocacao.php")
+fetch("PHP/alocacao.php")
     .then(function (response) {
         return response.json();
     })
