@@ -29,7 +29,7 @@ fetch("PHP/clientes.php")
     });
 
 // Requisição AJAX para obter os dados de alocação
-fetch("php/alocacao.php")
+fetch("PHP/alocacao.php")
     .then(function (response) {
         return response.json();
     })
@@ -45,7 +45,7 @@ fetch("php/alocacao.php")
     })
     .then(function () {
         // Requisição AJAX para obter os dados das concessionárias
-        fetch("php/concessionarias.php")
+        fetch("PHP/concessionarias.php")
             .then(function (response) {
                 return response.json();
             })
