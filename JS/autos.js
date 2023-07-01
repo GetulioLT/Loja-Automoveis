@@ -31,7 +31,7 @@ fetch("PHP/alocacao.php")
     })
     .then(function () {
         // Realiza uma requisição para obter os dados dos veículos
-        fetch("php/automoveis.php")
+        fetch("PHP/automoveis.php")
             .then(function (response) {
                 return response.json();
             })
