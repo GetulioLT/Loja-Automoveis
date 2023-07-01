@@ -22,3 +22,32 @@ C:\xampp\htdocs
 
 8. Por fim basta abrir o localhost e a sua pasta estará lá:
 localhost/
+
+Caso queira executar numa maquina vitual, siga esses passos:
+
+1. Faça os 3 primeiros passo, mas após criar o RDS e conectar num SGBD.
+
+2. Crie sua Maquina Virtual EC2 e execute os comnados:
+sudo apt-get update
+sudo apt-get upgrade
+
+3. vá para a pasta raiz da maquina, volte as pasta até não dar mais.
+cd ..
+
+4. Instale o apache, que será com ele criaremos um servidor:
+sudo apt-get install apache
+
+5. Após instalar o apache temos agora que instalar também o PHP, para isso siga esse codigo:
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get install php php-mysql
+
+6. Estando ainda na pasta raiz da maquina, siga o seguinte caminho:
+var/www/html
+
+7. Nessa pasta haverá um arquivo index.html, pode apagar esse arquivo pois iremos dar um clone desse projeto.
+rm index.html
+
+8. agora é só dar um clone desse repositorio que deve está no git com as suas alterações.
+git clone ***
+
+9. Após isso só ir para o ip da maquina que deve está publico.
